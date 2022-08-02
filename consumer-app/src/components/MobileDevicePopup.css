@@ -1,0 +1,89 @@
+/*--- Mobile Version CSS Start ---*/
+.mobile-wrap {
+  max-width: 767px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20% 15px 7px 15px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+.mobile-logo {
+  width: 205px;
+  margin: 0 auto 35px;
+}
+.mobile-content {
+  flex: 1 0 auto;
+}
+.mobile-logo img {
+  width: 100%;
+}
+.mobile-wrap span {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #939598;
+  opacity: 1;
+  font-family: "Montserrat", sans-serif;
+  max-width: 210px;
+  display: block;
+  margin: 0 auto 20px;
+}
+.img-round {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #0099cd;
+  opacity: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+.mobile-wrap p {
+  font-size: 13px;
+  color: #939598;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+.btn-version {
+  max-width: 256px;
+  width: 100%;
+  height: 40px;
+  background: transparent linear-gradient(90deg, #5bc3b2 0%, #0099cd 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 26px;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  margin: 47px auto 15px;
+  text-transform: uppercase;
+}
+.btn-version:hover {
+  background: transparent linear-gradient(90deg, #0099cd 0%, #5bc3b2 100%) 0% 0%
+    no-repeat padding-box;
+  color: #fff;
+}
+
+.mobile-footer {
+  text-align: center;
+  flex-shrink: 0;
+}
+.mobile-footer p {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.mobile-footer p a {
+  text-transform: uppercase;
+  color: #939598;
+}
+/*--- Mobile Version CSS End ---*/

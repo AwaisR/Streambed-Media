@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# misc
+.DS_Store
+.vscode 
+
+# dependencies
+/consumer-app/node_modules
+
+
+# consumer-app 
+
+/consumer-app/.DS_Store
+/consumer-app/node_modules
+
+/consumer-app/.env.local
+/consumer-app/.env.development
+/consumer-app/.env.staging
+/consumer-app/.env.production
+/consumer-app/.env
+
+/consumer-app/npm-debug.log*
+/consumer-app/yarn-debug.log*
+/consumer-app/yarn-error.log*
+/consumer-app/package-lock.json
+
+/consumer-app/build
+/consumer-app/src/index.css
+
+# backend
+
+/backend/.DS_Store
+/backend/node_modules
+/backend/oauthTwo.keys.json
+/backend/public/bundle.js
+/backend/public/bundle.js.map
+
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.staging
+/backend/.env.production
+/backend/.env
+
+/backend/public/uploads
+/backend/public/instagram-upload
+/backend/public/facebook-upload 
+/backend/public/linkedin-upload
+/backend/public/twitter-upload
+/backend/twitter-upload
+/backend/public/magnify-upload
+/backend/public/bundle.js
+/backend/public/bundle.js.map
+
+/backend/build
+
+# magnify-app
+
+/magnify-app/node_modules
+
+/magnify-app/.env
+/magnify-app/.env.production
+/magnify-app/.env.staging
+/magnify-app/.env.local
+/magnify-app/package-lock.json
+/magnify-app/.netlify
+/magnify-app/.eslintcache

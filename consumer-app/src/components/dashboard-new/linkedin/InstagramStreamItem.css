@@ -1,0 +1,39 @@
+.instagram-stream .content-video {
+  width: 72px;
+  height: 60px;
+  border: 0.5px solid #707070;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.instagram-stream .video-detail .icon-video {
+  width: 29px;
+  height: 29px;
+}
+
+/* Popup */
+.card_popup_wrap .modal-content {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+.card_popup_wrap .modal-body {
+  padding: 0;
+}
+.card_popup_wrap .btn-primary {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 110px;
+  font-size: 14px;
+  transform: translateX(-50%);
+}
+
+.insta-popover .popover {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+.insta-popup-content {
+  padding: 0;
+}

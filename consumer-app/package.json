@@ -1,0 +1,240 @@
+{
+  "name": "frontend",
+  "homepage": "https://test.streambedmedia.com/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7.9.0",
+    "@craco/craco": "^5.8.0",
+    "@headlessui/react": "^1.4.1",
+    "@popperjs/core": "^2.4.0",
+    "@progress/kendo-drawing": "^1.14.0",
+    "@progress/kendo-licensing": "^1.2.0",
+    "@progress/kendo-react-pdf": "^4.9.0",
+    "@svgr/webpack": "4.3.3",
+    "@sweetalert/with-react": "^0.1.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "axios": "^0.19.2",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-named-asset-import": "^0.3.6",
+    "babel-preset-react-app": "^9.1.2",
+    "bootstrap": "^4.5.0",
+    "camelcase": "^5.3.1",
+    "case-sensitive-paths-webpack-plugin": "2.3.0",
+    "chart.js": "^2.9.3",
+    "classnames": "^2.2.6",
+    "clsx": "^1.1.1",
+    "crypto-js": "^4.0.0",
+    "css-loader": "3.4.2",
+    "date-fns": "^2.21.3",
+    "deepmerge": "^4.2.2",
+    "dotenv": "8.2.0",
+    "dotenv-expand": "5.1.0",
+    "emoji-mart": "^3.0.0",
+    "emoji-picker-react": "^3.4.8",
+    "eslint": "^6.6.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-flowtype": "4.6.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "file-loader": "4.3.0",
+    "fs-extra": "^8.1.0",
+    "gsap": "^3.6.1",
+    "html-webpack-plugin": "4.0.0-beta.11",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "24.9.0",
+    "jest-environment-jsdom-fourteen": "1.0.1",
+    "jest-resolve": "24.9.0",
+    "jest-watch-typeahead": "0.4.2",
+    "js-copy-to-clipboard": "0.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "jspdf": "^2.4.0",
+    "jwt-decode": "^2.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "moment": "^2.26.0",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "pnp-webpack-plugin": "1.6.4",
+    "postcss-flexbugs-fixes": "4.1.0",
+    "postcss-loader": "3.0.0",
+    "postcss-normalize": "8.0.1",
+    "postcss-preset-env": "6.7.0",
+    "postcss-safe-parser": "4.0.1",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.12.1",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^1.0.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-dev-utils": "^10.2.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-emoji": "^0.5.0",
+    "react-emoji-render": "^1.2.4",
+    "react-joyride": "^2.2.1",
+    "react-json-view": "^1.19.1",
+    "react-loading-skeleton": "^2.2.0",
+    "react-multi-carousel": "^2.5.5",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-select": "^3.1.0",
+    "react-slick": "^0.28.1",
+    "reactjs-copy-to-clipboard": "^0.1.0",
+    "reactour": "^1.18.0",
+    "reactstrap": "^8.4.1",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "resolve": "1.15.0",
+    "resolve-url-loader": "3.1.1",
+    "sass-loader": "8.0.2",
+    "semver": "6.3.0",
+    "skynet-js": "^2.9.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^2.3.0",
+    "style-loader": "0.23.1",
+    "styled-components": "^5.2.3",
+    "svg-inline-react": "^3.2.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^9.10.12",
+    "sweetalert2-react-content": "^3.0.1",
+    "terser-webpack-plugin": "2.3.5",
+    "ts-pnp": "1.1.6",
+    "twin.macro": "^2.4.1",
+    "url-loader": "2.3.0",
+    "uuid": "^8.2.0",
+    "webpack": "4.42.0",
+    "webpack-dev-server": "3.10.3",
+    "webpack-manifest-plugin": "2.2.0",
+    "workbox-webpack-plugin": "4.3.1"
+  },
+  "scripts": {
+    "craco-start": "craco start",
+    "craco-build": "craco build",
+    "craco-test": "craco test",
+    "prestart": "npm run build-tailwind",
+    "start": "node scripts/start.js",
+    "prebuild": "npm run build-tailwind",
+    "build": "node scripts/build.js",
+    "pretest": "npm run build-tailwind",
+    "test": "node scripts/test.js",
+    "build-tailwind": "postcss src/tailwind.css -o src/index.css",
+    "storybook": "start-storybook -p 6006 -s public",
+    "predeploy-storybook": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:4000/",
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "setupFiles": [
+      "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+    ],
+    "testEnvironment": "jest-environment-jsdom-fourteen",
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "modulePaths": [],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ],
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      "babel-plugin-macros"
+    ]
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "./src/tailwind.config.js",
+      "preset": "styled-components"
+    }
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.1.3",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/node-logger": "^6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.9",
+    "autoprefixer": "^9.8.6",
+    "babel-plugin-macros": "^3.0.1",
+    "gh-pages": "^3.1.0",
+    "postcss": "^8.0.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+  }
+}

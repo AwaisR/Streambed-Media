@@ -1,0 +1,122 @@
+.instagram_box {
+  background: #ffffff;
+  box-shadow: 3px 3px 6px #00000029;
+  border: 0.25px solid #0099cd;
+  opacity: 1;
+  margin: 0 auto;
+  padding: 12px 15px;
+  line-height: 1.3;
+  text-align: left;
+  width: 450px;
+  position: absolute;
+  right: -100px;
+  top: -30px;
+}
+.instagram_row {
+  display: flex;
+  margin-bottom: 12px;
+}
+.instagram_img {
+  border: 0.5px solid #707070;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 127px;
+  height: 127px;
+  flex: 0 0 127px;
+}
+.instagram_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.instagram_detail {
+  padding-left: 15px;
+  width: 100%;
+}
+.icon-video-link:hover {
+  cursor: pointer;
+}
+.instagram_box h4 {
+  color: #939598;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  text-align: left;
+  margin-bottom: 0;
+}
+.instagram_box .fa-times {
+  font-size: 18px;
+  color: #b5b5b5;
+  cursor: pointer;
+  line-height: 1;
+}
+.instagram_box p {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #808285;
+  border-bottom: 1px solid #bcbec0;
+  padding-bottom: 15px;
+}
+.date_row {
+  display: flex;
+  justify-content: space-between;
+}
+.instagram_box span {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #939598;
+  opacity: 1;
+}
+.instagram_icon {
+  width: 29px;
+}
+.instagram_icon img {
+  width: 100%;
+}
+.instagram_shadow_box {
+  background: #f7f7f7;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 8px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #939598;
+  cursor: pointer;
+  min-width: 48%;
+  width: 100%;
+  margin-right: 15px;
+  border: 3px solid transparent;
+  transition: 0.4s all ease;
+}
+.instagram_shadow_box:last-child {
+  margin-right: 0;
+}
+.instagram_shadow_box .plus {
+  font-size: 100px;
+  color: #bcbec0;
+  font-family: "Nunito", sans-serif;
+  line-height: 0.6;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+.add_box:hover {
+  border-color: #00acee;
+}
+.add_box:hover .plus {
+  color: #00acee;
+}
+.instagram_shadow_box img {
+  margin-bottom: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+body .modal-backdrop.show {
+  opacity: 0;
+}

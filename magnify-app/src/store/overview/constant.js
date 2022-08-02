@@ -1,0 +1,4 @@
+export const overviewConsts = {
+  GET_CURENT_USER: "GET_CURENT_USER",
+  GET_CURENT_USER_ERROR: "GET_CURENT_USER_ERROR",
+};

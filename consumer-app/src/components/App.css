@@ -1,0 +1,184 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.App-link {
+  color: #61dafb;
+}
+.body-content-wrapper {
+  flex: 1 0 auto;
+  padding-bottom: 50px;
+  padding-top: 130px;
+}
+.loading-pic .img-graph-loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 230px;
+}
+
+@media (max-width: 767px) {
+  .body-content-wrapper {
+    padding-top: 0.5em;
+  }
+}
+.main-content-outer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+}
+.container {
+  max-width: 1070px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+.btn-primary {
+  width: 100%;
+  /* background-image: linear-gradient(
+    to right,
+    #5bc3b2,
+    #37babb,
+    #00b0c4,
+    #00a5ca,
+    #0099cd
+  ); */
+  border-radius: 25px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.15;
+  font-weight: bold;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border: none;
+  padding: 5px 10px;
+  border: none !important;
+}
+.btn-primary:hover {
+  /* background-image: linear-gradient(
+    to left,
+    #5bc3b2,
+    #37babb,
+    #00b0c4,
+    #00a5ca,
+    #0099cd
+  ); */
+  border: none !important;
+}
+
+.btn-primary a {
+  color: inherit;
+}
+body .btn-primary:disabled,
+.btn.disabled {
+  background-color: #e6e7e7;
+  color: #939598;
+  background-image: none;
+}
+
+body .form-control {
+  height: 50px;
+  width: 100%;
+  background: #ffffff;
+  /* border: 2px solid #939598;
+  border-radius: 25px; */
+  opacity: 1;
+  /* text-align: center; */
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  /* color: #0099cd; */
+}
+body .form-control::placeholder {
+  color: #939598;
+}
+body .form-control:focus {
+  color: #0099cd;
+  border-color: #0099cd;
+  box-shadow: none;
+  outline: none;
+}
+
+body .btn-outline-primary {
+  border: 1px solid #0099cd;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 1.15;
+  color: #0099cd;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+body .btn-outline-primary:hover,
+body .btn-outline-primary:focus {
+  background-color: #0099cd;
+  border-color: #0099cd;
+  color: #fff;
+}
+/* Dev CSS End */
+
+/* Tour CSS Start */
+.react-joyride__overlay,
+.react-joyride__spotlight {
+  background-color: transparent !important;
+}
+body .__floater {
+  /* position: fixed !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important; */
+  width: 100% !important;
+  max-width: 575px !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  border: 2px solid #0099cd !important;
+  border-radius: 20px;
+  opacity: 1 !important;
+  padding: 20px 15px 30px 15px !important;
+  overflow: hidden !important;
+  background-color: #fff !important;
+  text-align: center !important;
+}
+body .react-joyride__tooltip {
+  padding: 0 !important;
+  max-width: 480px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+body .react-joyride__tooltip div {
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0px !important;
+  color: #0099cd !important;
+  text-align: center !important;
+}
+.__floater__arrow {
+  display: none !important;
+}
+.react-joyride__tooltip div:nth-child(2) div:first-child {
+  flex: none !important;
+}
+/* Tour CSS End */

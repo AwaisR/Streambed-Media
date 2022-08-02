@@ -1,0 +1,244 @@
+.tweet-popup {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.tweet-popupBox {
+  max-width: 779px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+}
+.tweet-popHeader {
+  padding: 17px 25px;
+  border-bottom: 1px solid #a0a0a0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tweet-close {
+  color: #0099cd;
+  font-size: 20px;
+  padding: 0;
+  line-height: 1;
+}
+.tweet-popHeader h3 {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  margin-bottom: 0;
+  margin-left: 40px;
+}
+
+.tweet-popContent {
+  padding: 25px;
+}
+.tweetPop-head {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.post-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex: 0 0 64px;
+}
+.tweetPop-head form {
+  width: calc(100% - 25px);
+  box-sizing: border-box;
+  position: relative;
+}
+.input-aboutTweet {
+  border: none;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  /* color: transparent; */
+  opacity: 1;
+  display: block;
+  height: 32px;
+  width: 100%;
+  /* background: none; */
+  border: none;
+  position: relative;
+  z-index: 5;
+}
+.tweetPop-head span {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #000;
+  opacity: 1;
+  position: absolute;
+  display: block;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 32px;
+}
+.input-aboutTweet::placeholder {
+  color: #a0a0a0;
+}
+.input-aboutTweet:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.tweet-inner {
+  padding-left: 84px;
+}
+.tweet-popup .file-type {
+  height: 375px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px #00000029;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.tweet-popup video {
+  width: 100%;
+  height: calc(100% + 10px);
+  margin-top: -10px;
+}
+.tweet-popup .file-type img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tweet-popupBox button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.tweet-popup .file-close {
+  background-color: #222;
+  width: 40px;
+  height: 40px;
+  line-height: 17px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  left: 35px;
+  top: 14px;
+  z-index: 999;
+}
+
+.tweet-popFooter {
+  padding-left: 110px;
+  padding-right: 25px;
+  padding: 0 25px 25px 110px;
+}
+.tweet-popFooter ul {
+  display: flex;
+  align-items: center;
+}
+.tweet-popFooter li {
+  padding-right: 25px;
+  cursor: pointer;
+  position: relative;
+}
+.add-btn {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.tweet-popup .tweet-btn {
+  height: 45px;
+  background-color: #0099cd;
+  border-radius: 94px;
+  padding: 0 20px;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+.tweetFtr-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Schedule CSS Start */
+.schedule-inner {
+  padding: 25px;
+}
+.schedule-head {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.schedule-head span,
+.time-zone span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #707070;
+  display: inline-block;
+  padding-left: 20px;
+}
+.time-zone span {
+  padding-left: 0;
+  line-height: 1;
+  padding-bottom: 7px;
+}
+.time-zone h4 {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.1;
+  font-family: "Montserrat", sans-serif;
+}
+.custom-hr {
+  padding-bottom: 50px;
+  margin: 0;
+  border-top: 1px solid #a0a0a0;
+}
+/* tweet loader CSS */
+.tweet-loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Emoji CSS Start */
+.emoji-mart {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 5px);
+  margin-bottom: 50px;
+}
+.emoji-mart-bar {
+  display: none;
+}
+.emoji-mart-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.emoji-mart-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #0099cd;
+  border-radius: 5px;
+}

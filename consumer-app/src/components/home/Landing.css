@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.color_green {
+  color: #74c0b2;
+}
+.color_primary {
+  color: #0099cd;
+}
+.color_secondary {
+  color: #8b3282;
+}
+
+.welcome_wrap {
+  padding: 50px 0 100px;
+}
+.welcome_title {
+  margin-bottom: 25px;
+}
+.welcome_title span {
+  color: #707070;
+  font-size: 24px;
+  line-height: 1;
+}
+.welcome_title h2 {
+  color: #707070;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.welcome_card {
+  box-shadow: 0px 3px 10px #00374a1a;
+  padding: 15px 30px;
+  height: 255px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.wel_icon {
+  margin: 0 auto 15px;
+  text-align: center;
+}
+.welcome_card .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0px;
+
+  font: normal normal bold 20px/24px Montserrat;
+}
+.welcome_card p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #707070;
+}
+.welcome_wrap hr {
+  border-top: 1px solid #d1d3d4;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.welcome_card span {
+  color: #707070;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.card_sm {
+  height: 150px;
+  cursor: pointer;
+}
+.p_bottom {
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+  max-width: 280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.p_bottom a {
+  color: #0099cd;
+}

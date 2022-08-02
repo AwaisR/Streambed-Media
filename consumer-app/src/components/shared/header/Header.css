@@ -1,0 +1,529 @@
+/*--- Header CSS Start ---*/
+
+header {
+  height: 90px;
+  opacity: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  background: transparent
+    linear-gradient(270deg, var(--unnamed-color-0099cd) 0%, #5bc3b2 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(270deg, #0099cd 0%, #5bc3b2 100%) 0%
+    0% no-repeat padding-box;
+}
+
+@media (max-width:767px){
+  header{
+    height: 60px;
+  }
+}
+.logo {
+  text-align: left;
+}
+
+@media (max-width: 768px){
+  .navbar-brand .logo{
+    max-width: 62%;
+    margin-left: 5%;
+  }
+}
+.container-fluid {
+  max-width: 1650px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 160px;
+  margin-left: 300px;
+  width: 100%;
+}
+
+.header-content{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-right ul {
+  display: flex;
+  align-items: center;
+}
+
+.header-right .top-nav li {
+  margin-right: 60px;
+  position: relative;
+}
+
+.header-right li a {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.header-right li a img {
+  height: 25px;
+  width: 25px;
+}
+
+.header-right a.active:after,
+.header-right li a:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: 0.4s all ease-in-out;
+  opacity: 0;
+}
+
+.header-right a.active:after,
+.header-right li a:focus:after {
+  opacity: 1;
+  width: 100%;
+}
+
+.header-right li.active:after,
+.header-right li:hover:after,
+.header-right li:focus:after {
+  opacity: 1;
+  width: 100%;
+}
+
+.header-right li:last-child {
+  margin-right: 0;
+}
+
+header .profile-link {
+  cursor: pointer;
+  width: 45px !important;
+  height: 45px;
+  border: 4px solid #0e62af;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+header .profile-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+
+header .profile-link img {
+  width: 27px;
+  height: 27px;
+}
+
+header .profile-link.mobile {
+  display: none;
+}
+
+header .logo {
+  height: 45px;
+  width: 215px;
+}
+
+.hide-profile {
+  display: none;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 71px;
+  right: 10px;
+  width: 370px;
+  /* background: #ffffff;
+  box-shadow: 0px 5px 6px #00000029;
+  border: 8px solid #51b8a3;
+  border-radius: 0px 0px 5px 5px;
+  opacity: 1;
+  padding: 40px 0 0 0; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0099cd;
+  border-radius: 0px 0px 8px 8px;
+  opacity: 1;
+}
+
+.profile-dropdown ul {
+  display: block;
+  text-align: center;
+}
+
+.profile-dropdown a:after,
+.profile-dropdown li:after {
+  content: none !important;
+}
+
+.profile-dropdown li a {
+  padding: 12px 5px;
+  display: block;
+  text-align: center;
+  font: Bold 16px/20px Nunito;
+  letter-spacing: 0px;
+  color: #0099cd;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.profile-dropdown li a:hover {
+  background: #0099cd;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.user-avatar {
+  width: 85px;
+  height: 85px;
+  opacity: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 4px solid #0099cd;
+  padding: 10px;
+}
+
+.user-avatar img {
+  width: 100%;
+}
+
+.username {
+  margin-bottom: 15px;
+}
+
+.username span {
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  letter-spacing: 0px;
+  color: #0e62af;
+  font-family: "Nunito", sans-serif;
+}
+
+.profile-dropdown li {
+  display: none;
+}
+
+.profile-dropdown .username,
+.profile-dropdown .sign-out,
+.profile-dropdown .view-profile {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .header-right ul > li {
+    display: none;
+    margin-right: 0;
+  }
+
+  header ul .profile-link {
+    display: block;
+  }
+
+  header .profile-dropdown li {
+    display: block;
+  }
+
+  .profile-dropdown {
+    width: 300px;
+    padding-top: 20px;
+    border-width: 6px;
+  }
+}
+
+@media (max-width: 575px) {
+  .profile-dropdown {
+    width: 250px;
+  }
+
+  .user-avatar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .username span {
+    font-size: 20px;
+  }
+
+  .profile-dropdown li a {
+    padding: 7px 5px;
+  }
+
+  .profile-dropdown li {
+    margin-right: 0;
+    font-size: 17px;
+  }
+}
+.navToggle{
+  border: none;
+  font-size: 1.7em;
+}
+
+@media (min-width: 768px){
+  .mobile-nav{
+    display: none !important;
+    width: 0px;
+    height: 0px;
+    float: right;
+  }
+}
+
+@media (max-width:767px){
+  .mobile-nav{
+    display: block !important;
+  }
+}
+
+/* The side navigation menu */
+.sidenav {
+  /* display: none; */
+  height: 100%; /* 100% Full-height */
+  width: 0px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #0099CD; /* Blue*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  /* padding-top: 22px; Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  text-align: right;
+}
+
+.sidenavLogo{
+  max-width: 60%;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 0px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+.footerSideNav a{
+  color: white;
+  font-size: 14px;
+}
+
+.sidenav .socials a{
+  color: white;
+  padding: 0px;
+  font-size: 25px;
+}
+
+.selectedNav{
+  color: #0099CD !important;
+  font-weight: 600;
+  
+}
+
+#uploadBottom p{
+  margin-top: 5px;
+}
+
+#settingsBottom{
+  background: center / contain no-repeat url("../../../assets/images/settingsMobile.svg");
+  background-size: 25px;
+  background-position-y: top;
+}
+
+#settingsBottom.selectedNav{
+  background: center / contain no-repeat url("../../../assets/images/settingsSelected.svg");
+  background-size: 25px;
+  background-position-y: top;
+}
+
+#profileBottom{
+  background: center / contain no-repeat url("../../../assets/images/profileMobile.svg");
+  background-size: 24px;
+  background-position-y: top;
+}
+
+#profileBottom.selectedNav{
+  background: center / contain no-repeat url("../../../assets/images/profileSelected.svg");
+  background-size: 24px;
+  background-position-y: top;
+}
+
+#dashboardBottom{
+  background: center / contain no-repeat url("../../../assets/images/dashboardMobile.svg");
+  background-size: 25px;
+  background-position-y: top;
+}
+
+#dashboardBottom.selectedNav{
+  background: center / contain no-repeat url("../../../assets/images/dashboardSelected.svg");
+  background-size: 25px;
+  background-position-y: top;
+}
+
+#refreshBottom{
+  background: center / contain no-repeat url("../../../assets/images/refreshMobile.svg");
+  background-size: 32px;
+  background-position-y: top;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #0099CD;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 216px;
+  font-size: 36px;
+  /* margin-left: 50px; */
+  color: white;
+  font-size: 20px;
+}
+
+.bgWhite{
+background: white;
+height: 50%;
+}
+
+.sidenav .username{
+  color: white;
+  list-style: none;
+}
+
+.sidenav .btn-sidenav{
+  background-color: white;
+  color: #0099CD;
+  background-image: none;
+  width: 125px;
+  margin-left: 50%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-size: 1em !important;
+  padding: 5px 10px;
+}
+
+.sidenav .btn-sidenav:hover {
+background-color: #0099CD !important;
+color: white !important;
+box-shadow: 0px 0px 0px 1px white;
+background-image: none;
+
+}
+
+.copywriteSideNav{
+  font-size: 10px;
+}
+
+.bottomNav{
+  box-shadow: 0px -2px 2px #0099CD33;
+  background-color: white !important;
+  z-index: 0;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  opacity: 1;
+  color: #939598;
+}
+
+
+
+.bottomNav li{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -16px;
+}
+
+.bottomNav ul{
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.sidenav .username span{
+  color: white;
+}
+
+.bottomNav p{
+  font-size: 10px;
+  color: inherit;
+  margin-bottom: none;
+  /* margin-top: 4px; */
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.bottomNav a{
+  text-align: center;
+  color: #939598;
+}
+
+.bottomNav a:hover{
+  color: #0099CD;
+}
+
+#uploadBottom{
+  margin-top: -16px; 
+  border-top-style: solid;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-color: #0099CD33;
+}
+
+.uploadIcon{
+  padding-top: 6px;
+  background-color: white;
+  border-radius: 20px;
+  /* box-shadow: 0px -2px 2px #0099CD33; */
+}
+
+/* .navMobile a.active:after,
+.navMobile li a:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+ 
+  bottom: -6px;
+  background-color: blue;
+  border-radius: 5px;
+  transition: 0.4s all ease-in-out;
+  opacity: 0;
+  color: blue !important;
+} */
+
+/* .navMobile a.active::before{
+  color:blue;
+}
+
+
+.navMobile a.active:after,
+.navMobile li a:focus:after {
+  opacity: 1;
+  width: 24px;
+} */
+/* 
+.navMobile li.active:after,
+.navMobile li:hover:after,
+.navMobile li:focus:after {
+  opacity: 1;
+  width: 24px;
+} */
+/*--- Header CSS End ---*/

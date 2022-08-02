@@ -1,0 +1,80 @@
+.wrapper-onboarding .banner {
+  /* background-image: url('../images/youtube.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper-onboarding .bg_image {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.wrapper-onboarding .bg_image:before {
+  position: absolute;
+  content: "";
+  /* background-image: url('../images/background.svg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(40px);
+  opacity: 0.6;
+}
+.wrapper-onboarding .bg_image .form_wrap {
+  width: 290px;
+  max-width: 100%;
+  padding: 70px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.wrapper-onboarding .bg_image .form_wrap a {
+  width: 100%;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  background: #000;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.bg_image .form_wrap a.youtube {
+  background: #ef3133;
+}
+@media screen and (max-width: 1199px) {
+  .wrapper-onboarding header img {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrapper-onboarding header img {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrapper-onboarding header img {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .wrapper-onboarding header img {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper-onboarding header img {
+    width: 200px;
+  }
+}

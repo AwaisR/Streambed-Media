@@ -1,0 +1,121 @@
+/*--- Responsive CSS Start ---*/
+@media screen and (max-width: 991px) {
+  .logForm .logo img {
+    width: 80%;
+  }
+  .btn-primary {
+    font-size: 22px;
+  }
+  .logForm .btn-primary {
+    height: 65px;
+  }
+  .forgot-group .btn-primary {
+    height: 50px;
+  }
+
+  .nav-tabs .nav-link {
+    padding: 10px 15px;
+  }
+
+  .nav-tabs .nav-link .fa {
+    font-size: 20px;
+    padding-left: 7px;
+  }
+  .settings-links ul {
+    height: 580px;
+  }
+  .edit-content label {
+    font-size: 16px;
+  }
+  .change-bitmoji {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .login-image {
+    margin-bottom: 35px;
+  }
+  .logo p {
+    font-size: 16px;
+  }
+  .thanks-content {
+    max-width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .thanks-popup p {
+    font-size: 18px;
+  }
+  .profile-info {
+    padding-bottom: 30px;
+  }
+  .linked-accounts {
+    padding-top: 25px;
+  }
+  .profile-content .btn-primary,
+  .profile-info li {
+    font-size: 17px;
+  }
+  .main-text {
+    margin-bottom: 25px;
+  }
+  .settings-links ul {
+    height: auto !important;
+  }
+  .settings-links ul li {
+    width: 100%;
+  }
+  .nav-tabs .nav-link .fa {
+    transform: rotate(90deg);
+  }
+  .nav-tabs .nav-link {
+    /* font-size: 18px !important; */
+    padding: 7px 10px !important;
+  }
+  .settings-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .settings-content .tab-content {
+    margin: 25px auto 0 !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .settings-links ul {
+    display: block;
+  }
+  .nav-tabs .nav-item {
+    width: 100%;
+  }
+  .edit-content .form-group {
+    display: block;
+  }
+  .content-wrap {
+    padding: 0px 15px 50px 15px;
+  }
+  .unlink-popup {
+    padding: 15px;
+  }
+  .unlink-popup p {
+    font-size: 22px;
+  }
+  .unlink-popup .btn-primary {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .linked-content li {
+    flex-wrap: wrap;
+  }
+  .linked-content li span,
+  .unlink-row span {
+    display: block;
+    width: 100%;
+    margin-bottom: 7px;
+  }
+}
+/*--- Responsive CSS End ---*/

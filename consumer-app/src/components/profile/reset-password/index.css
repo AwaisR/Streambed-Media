@@ -1,0 +1,107 @@
+.forgot-pwd-wrapper,
+.wrapper-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.pwd-inner-wrapper {
+  padding: 50px 0 60px;
+  max-width: 488px;
+  text-align: center;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pwd-inner-wrapper .logo {
+  width: 351px;
+  margin-bottom: 29px;
+  display: flex;
+  justify-content: center;
+}
+
+.pwd-inner-wrapper .forgot_title {
+  font: normal normal bold 25px/41px Nunito;
+  letter-spacing: 0px;
+  color: #0099cd;
+  margin-bottom: 40px;
+}
+
+.pwd-inner-wrapper .forget-info {
+  font: normal normal normal 14px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  max-width: 418px;
+  margin-bottom: 40px;
+}
+
+.pwd-inner-wrapper .form-group {
+  margin-bottom: 40px;
+}
+
+.pwd-inner-wrapper .btn-primary {
+  max-width: 320px;
+  /* height: 55px; */
+  margin: 0 auto;
+  margin-bottom: 40px;
+  /* border-radius: 50px; */
+  font-size: 26px;
+}
+
+.pwd-inner-wrapper .log-footer label {
+  font: normal normal normal 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #0099cd;
+  margin-bottom: 40px;
+}
+
+.pwd-inner-wrapper .btn-secondary {
+  border: 1px solid #0099cd;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.reset-footer {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #939598;
+  text-transform: uppercase;
+  padding: 15px;
+  flex-shrink: 0;
+}
+.forgot-group {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .reset-footer {
+    font-size: 10px;
+  }
+}
+
+.reset-footer a {
+  color: #939598;
+}
+
+.forgot-pwd-wrapper .confirm_title {
+  text-align: center;
+  font: normal normal bold 30px/24px Nunito;
+  letter-spacing: 0px;
+  color: #0099cd;
+  margin-top: 100px;
+}
+
+.forgot-pwd-wrapper .confirm-info {
+  text-align: center;
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #0099cd;
+  max-width: 482px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,215 @@
+.anylatic-section .bar-icon {
+  font-size: 16px;
+  cursor: pointer;
+}
+.anylatic-section .graph-item .graph-box {
+  max-width: 24%;
+  height: calc(25vh - 65px);
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: inherit;
+}
+.anylatic-section .graph-item-outer {
+  height: calc(50vh - 108px);
+}
+
+.anylatic-section .graph-item .graph-box .box-content {
+  display: flex;
+  align-items: center;
+}
+.anylatic-section .graph-item .graph-box .box-content h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #56123d;
+  line-height: 36px;
+}
+.anylatic-section .graph-item .graph-box .weeks-day {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+}
+.anylatic-section .graph-item .graph-box .box-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.anylatic-section .graph-item .graph-box .box-bottom h4 {
+  font-size: 20px;
+  color: #707070;
+}
+.anylatic-section .graph-box:last-child {
+  margin-bottom: 0;
+}
+.anylatic-box-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.user-outer {
+  /* overflow-y: scroll; */
+  padding: 6px;
+}
+
+.anylatic-section .performer-list {
+  padding: 6px;
+}
+
+/* .anylatic-section .main-contant .graph-box {
+  height: 270px !important;
+} */
+.anylatic-section .graph-item .graph-box:last-child {
+  background-color: #f1f2f2;
+}
+.anylatic-section .box-selector .svg-inline--fa {
+  margin-bottom: 0;
+}
+.anylatic-section .graph-item {
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.anylatic-section .graph-item:last-child {
+  margin-bottom: 20px;
+}
+.anylatic-section .main-heading {
+  padding-bottom: 10px;
+}
+.anylatic-section .box-selector {
+  display: flex;
+}
+.anylatic-section .box-selector .graph-btn {
+  color: #707070;
+  font-size: 16px;
+  line-height: 19px;
+  width: 200px;
+  height: 30px;
+  background: transparent linear-gradient(180deg, #ffffff 0%, #e6e7e8 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #00000034;
+  border-radius: 15px;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  font-weight: 700;
+  position: relative;
+}
+.anylatic-section .box-selector .graph-btn:hover {
+  box-shadow: none !important;
+  background: transparent linear-gradient(180deg, #3362a3 0%, #26416c 100%) 0%
+    0% no-repeat padding-box;
+  color: #fff;
+}
+
+.anylatic-section .box-selector .graph-btn:active {
+  box-shadow: none !important;
+  background: transparent linear-gradient(180deg, #3362a3 0%, #26416c 100%) 0%
+    0% no-repeat padding-box;
+  color: #fff;
+}
+.anylatic-section .box-selector .graph-btn.active {
+  box-shadow: none !important;
+  background: transparent linear-gradient(180deg, #3362a3 0%, #26416c 100%) 0%
+    0% no-repeat padding-box;
+  color: #fff;
+}
+.anylatic-section .box-selector .graph-btn:last-child {
+  margin-right: 0;
+}
+.anylatic-section .box-selector .dropdown-toggle:active,
+.anylatic-section .box-selector .dropdown-toggle:hover,
+.anylatic-section .box-selector .dropdown-toggle:focus {
+  box-shadow: none !important;
+  color: #707070 !important;
+}
+.anylatic-section .box-selector .dropdown-toggle::after {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+.social-icon-list {
+  display: flex;
+}
+.anylatic-section .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  margin-right: 60px;
+}
+.anylatic-section .form-group:last-child {
+  margin-right: 0;
+}
+.anylatic-section .right-bar .box-heading {
+  align-items: baseline;
+}
+.anylatic-section .right-bar .box-heading .title {
+  text-align: left;
+}
+
+.anylatic-section .right-bar .box-selector .dropdown {
+  width: 100%;
+}
+.anylatic-section .right-bar .box-selector button#dropdown-basic {
+  width: 100%;
+  position: relative;
+}
+.paidCheck {
+  color: #6d6e71;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+/*-----------user-logo------*/
+.anylatic-section .right-bar .user-outer .user-logo {
+  width: 20%;
+}
+.anylatic-section .right-bar .user-outer .user-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.anylatic-section .right-bar .user-outer .user-info {
+  width: 70%;
+}
+.anylatic-section .right-bar .user-outer .user-info p {
+  font-size: 12px;
+}
+.anylatic-section .right-bar .user-outer .user-status .svg-inline--fa {
+  margin-bottom: 0;
+}
+.anylatic-section .right-bar .boder-bottom {
+  border-bottom: 2px solid #ccc;
+  margin: 20px auto;
+  width: 118%;
+  margin-left: -30px;
+}
+.data-info p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  .anylatic-section .graph-item .graph-box .box-content {
+    min-height: auto;
+    display: flex;
+    align-items: center;
+  }
+  .anylatic-section .graph-item .graph-box {
+    min-height: auto !important;
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .anylatic-section .main-heading .title h1 {
+    margin-bottom: 0;
+  }
+  .anylatic-section .main-heading .graph-btn {
+    width: 140px;
+  }
+}

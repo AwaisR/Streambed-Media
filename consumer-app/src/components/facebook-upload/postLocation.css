@@ -1,0 +1,122 @@
+.fb-post-location-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 20px;
+  max-width: 779px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+  margin-left: 10px;
+  font-family: "Nunito", sans-serif;
+  margin: 0 auto;
+}
+
+.pages-list-contaier {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-top-header {
+  text-align: center;
+  font-weight: 700;
+}
+
+.icon-blue {
+  background-color: #0099cd;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.page-list-content {
+  font-size: 13px;
+}
+.pages-list {
+  width: 48%;
+  /* margin-right: 10px; */
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  height: 300px;
+  padding-right: 5px;
+}
+.pages-list-contaier .options {
+  overflow: auto;
+  height: 225px;
+}
+.options::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+/* .options::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+
+/* Handle */
+.options::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 20px;
+}
+.page-list-header {
+  padding: 15px;
+  /* margin: 10px; */
+  /* margin-left: 20px; */
+  border-bottom: 1px solid;
+  border-color: #00000029;
+}
+.page-list-header span {
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.pages-list-contaier .options .form-group {
+  margin: 0;
+}
+.pages-list-contaier .options label {
+  width: 100%;
+  padding: 8px 0 8px 20px;
+  margin: 0;
+}
+
+.option-item {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+}
+.page-radio {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.option-item img {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.option-item .form-group input {
+  /* min-width: 500px; */
+}
+
+.footer-btn {
+  /* position: absolute; */
+  /* bottom: 30%; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.footer-btn button {
+  border-radius: 20px;
+  padding: 0 20px 0;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #00000029;
+  border-color: transparent;
+  color: #0099cd;
+}
